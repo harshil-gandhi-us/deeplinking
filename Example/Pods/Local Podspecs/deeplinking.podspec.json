@@ -1,0 +1,27 @@
+{
+  "name": "deeplinking",
+  "version": "0.1.0",
+  "summary": "A short description of deeplinking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/164989979/deeplinking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "164989979": "harshil.gandhi@logicwind.com"
+  },
+  "source": {
+    "git": "https://github.com/164989979/deeplinking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "deeplinking/Classes/**/*",
+  "dependencies": {
+    "AppsOnAirIOSCore": [
+
+    ]
+  }
+}

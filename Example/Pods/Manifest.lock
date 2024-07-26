@@ -1,0 +1,34 @@
+PODS:
+  - AppsOnAirIOSCore (0.1.0):
+    - ReachabilitySwift
+  - deeplinking (0.1.0):
+    - AppsOnAirIOSCore
+  - ReachabilitySwift (5.2.3)
+
+DEPENDENCIES:
+  - AppsOnAirIOSCore (from `https://github.com/harshil-gandhi-us/AppsOnAirIOSCore`)
+  - deeplinking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  AppsOnAirIOSCore:
+    :git: https://github.com/harshil-gandhi-us/AppsOnAirIOSCore
+  deeplinking:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  AppsOnAirIOSCore:
+    :commit: 7b0815576032dd34686b0a3945c7215c1d998454
+    :git: https://github.com/harshil-gandhi-us/AppsOnAirIOSCore
+
+SPEC CHECKSUMS:
+  AppsOnAirIOSCore: de93a0068e27ef5af1becba3914fcd98700ce2dd
+  deeplinking: 6f30a4be99241ffa14c051b7022334928028b2e5
+  ReachabilitySwift: 7f151ff156cea1481a8411701195ac6a984f4979
+
+PODFILE CHECKSUM: 3b2f87e7ad84c44deeaaea43ecd3e65a6aaab52d
+
+COCOAPODS: 1.15.2

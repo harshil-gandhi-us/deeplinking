@@ -1,0 +1,6 @@
+framework module deeplinking {
+  umbrella header "deeplinking-umbrella.h"
+
+  export *
+  module * { export * }
+}
