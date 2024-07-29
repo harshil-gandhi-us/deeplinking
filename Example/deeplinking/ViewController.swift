@@ -10,10 +10,11 @@ import UIKit
 import deeplinking
 
 class ViewController: UIViewController {
-
+    let deepLinking = DeepLink()
     override func viewDidLoad() {
         super.viewDidLoad()
-        DeepLink.deepLinkAdded()
+      
+        deepLinking.deepLinkAdded()
               // Do any additional setup after loading the view, typically from a nib.
     }
 
